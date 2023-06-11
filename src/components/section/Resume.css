@@ -1,0 +1,53 @@
+.resume{
+    width: calc(100% - 245px);
+    float: right;
+    font-size:30px;
+    height:1400px;
+    color:black;;
+    /* background:#f8f9fa; */
+}
+
+.center{
+    text-align:center;
+}
+
+.behind-effect{
+    z-index: 1;
+    font-size: 7rem;
+    color:#dee3e4;
+    text-align: center;
+    opacity:0.45;
+    position: absolute; 
+}
+
+.overlay-center{
+    text-align: center;
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    justify-content: center;
+    width: calc(100% - 260px);
+}
+
+.overlay-text{
+    font-weight:500;
+    font-size:2.5rem;
+    padding: 40px 0;
+}
+
+p{
+    font-size:1.2rem;
+}
+
+@media only screen and  (max-width: 1100px) {
+    .resume{
+        width:100%;
+    }
+    .behind-effect{
+        left:0;
+        right:0;
+        margin:auto;
+        display:flex;
+        justify-content: center;
+    }
+}
